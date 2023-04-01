@@ -5,6 +5,8 @@ This is a simple calculator app built using Flutter. It can perform basic arithm
 
 Images
 
+![Golden](assets/png/image.png "Golden's Image") 
+
 ## Features 
 * Basic arithmetic operations: addition, subtraction, multiplication, and division.
 * Responsive layout that adapts to different scren sizes.
@@ -39,5 +41,3 @@ If you find any issues or have suggestions for improvement, feel free to create 
 The UI design of the app was done by [Kenile Achije.]()
 
 Checkout my post on [LinkedIn.]()
-
-![Golden](assets/png/image.png "Golden's Image") 
