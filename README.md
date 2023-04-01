@@ -40,6 +40,4 @@ The UI design of the app was done by [Kenile Achije.]()
 
 Checkout my post on [LinkedIn.]()
 
-![Golden](https://www.google.com/url?sa=i&url=https%3A%2F%2Fng.linkedin.com%2Fin%2Fgolden-okey-nwala%3Ftrk%3Dpublic_profile_browsemap&psig=AOvVaw0dorhfwiaz_sVTI0gPIS6s&ust=1679684712845000&source=images&cd=vfe&ved=2ahUKEwjW27Wm3_L9AhVkpicCHZ1DDnoQr4kDegQIARA7 "Golden's Image")
-
-![New](https://drive.google.com/file/d/1J0L83TZ8Ftvrc7HlkNyrPOWsZICUP6yp/view?usp=share_link "New image")
+![Golden](assets/png/image.png "Golden's Image") 
