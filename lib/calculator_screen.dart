@@ -26,7 +26,10 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
         centerTitle: true,
         backgroundColor: darkMode ? dark : white,
         title: Container(
-          padding: const EdgeInsets.all(10),
+          padding: const EdgeInsets.symmetric(
+            vertical: 13,
+            horizontal: 22,
+          ),
           decoration: BoxDecoration(
             color: darkMode ? lightDark : grey,
             borderRadius: BorderRadius.circular(15),
@@ -46,7 +49,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                   color: darkMode ? white : dark,
                 ),
               ),
-              widthSpace(20),
+              widthSpace(21),
               InkWell(
                 onTap: () {
                   setState(() {

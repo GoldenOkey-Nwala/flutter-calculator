@@ -1,11 +1,12 @@
 # Flutter Calculator
-This is a simple calculator app built using Flutter. It can perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+This is a simple calculator app built using Flutter and Dart. It can perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
 ## Screenshots
 
 Images
 
-<img src="assets/png/darkmode.png" alt="Dark Mode" width="390" height="800">      <img src="assets/png/image.png" alt="Light Mode" width="390" height="800">
+<img src="assets/png/darkmode.png" alt="Dark Mode" width="390" height="800">
+<img src="assets/png/image.png" alt="Light Mode" width="390" height="800">
 
 ## Features 
 * Basic arithmetic operations: addition, subtraction, multiplication, and division.
@@ -18,21 +19,21 @@ To run this app on your local machine, you need to have Flutter installed. You c
 
 ### Installation 
 1. Clone this repository:
-```bash
-git clone https://github.com/GoldenOkey-Nwala/flutter-calculator.git
-```
+      ```bash 
+      git clone https://github.com/GoldenOkey-Nwala/flutter-calculator.git
+      ```
 2. Change into the project directory:
-```bash
-cd flutter-calculator
-```
+      ```bash
+      cd flutter-calculator
+      ```
 3. Install the dependencies: 
-```arduino
-flutter pub get
-```
+      ```arduino
+      flutter pub get
+      ```
 4. Run the app:
-```arduino
-flutter run 
-```
+      ```arduino
+      flutter run 
+      ```
 
 ## Contributing
 If you find any issues or have suggestions for improvement, feel free to create a pull request.
