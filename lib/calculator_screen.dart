@@ -72,6 +72,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
               padding: const EdgeInsets.all(20.0),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.end,
+                crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   Expanded(
                     flex: 2,
@@ -195,7 +196,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
       return;
     }
     if (text == "C") {
-      result = "0";
+      // result = "0";
       inputSize = 64;
       resultSize = 24;
 

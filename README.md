@@ -41,4 +41,4 @@ If you find any issues or have suggestions for improvement, feel free to create 
 ## Reference
 The UI design of the app was done by [Kenile Achije.](https://sites.google.com/view/kenileachije/home)
 
-Checkout my post on [LinkedIn.]()
+Checkout my post on [LinkedIn.]() <!-- TODO Input the link to the linkedin post here. -->

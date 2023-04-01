@@ -16,7 +16,7 @@ getColor(String text, bool darkMode) {
   if (text == "AC" || text == "(" || text == ")") {
     return darkMode ? orange : green;
   }
-  if (text == "/" || text == "x" || text == "-" || text == "+" || text == "=") {
+  if (text == " / " || text == " x " || text == " - " || text == " + " || text == "=") {
     return darkMode ? green : orange;
   }
   return darkMode ? white : dark;
