@@ -12,6 +12,7 @@ Images
 * Basic arithmetic operations: addition, subtraction, multiplication, and division.
 * Responsive layout that adapts to different scren sizes.
 * Simple and intuitive user interface.
+* Has light and dark mode.
 
 ## Getting Started
 
