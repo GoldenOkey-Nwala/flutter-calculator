@@ -5,8 +5,7 @@ This is a simple calculator app built using Flutter and Dart. It can perform bas
 
 Images
 
-<img src="assets/png/darkmode.png" alt="Dark Mode" width="390" height="800">
-<img src="assets/png/image.png" alt="Light Mode" width="390" height="800">
+<img src="assets/png/darkmode.png" alt="Dark Mode" width="195" height="420"> &nbsp; &nbsp; <img src="assets/png/image.png" alt="Light Mode" width="195" height="420">
 
 ## Features 
 * Basic arithmetic operations: addition, subtraction, multiplication, and division.
