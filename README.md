@@ -4,7 +4,7 @@ This is a simple calculator app built using Flutter and Dart. It can perform bas
 
 ## Screenshots
 
-<img src="assets/image.png" alt="Calculator" > <!--width="195" height="420">  -->
+<img src="assets/image.png" alt="Calculator"  width="600" height="450">
 <!-- &nbsp; &nbsp; <img src="assets/png/image.png" alt="Light Mode" width="195" height="420"> -->
 
 ## Features
