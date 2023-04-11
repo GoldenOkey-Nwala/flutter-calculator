@@ -75,7 +75,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   Expanded(
-                    flex: 2,
+                    flex: 1,
                     child: Align(
                       alignment: Alignment.bottomRight,
                       child: SingleChildScrollView(
@@ -122,10 +122,6 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
           Expanded(
             flex: 2,
             child: Container(
-              padding: const EdgeInsets.symmetric(
-                vertical: 40,
-                horizontal: 30,
-              ),
               decoration: BoxDecoration(
                 color: darkMode ? lightDark : grey,
                 borderRadius: const BorderRadius.only(
@@ -135,6 +131,10 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
               ),
               child: GridView.builder(
                 physics: const NeverScrollableScrollPhysics(),
+                padding: const EdgeInsets.symmetric(
+                  vertical: 25,
+                  horizontal: 30,
+                ),
                 itemCount: buttonList.length,
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 4,
@@ -213,7 +213,9 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
     }
     if (text == "=") {
       // Changes the reactions to math operation
-      userInput = userInput.replaceAll('x', '*');
+      userInput = userInput.replaceAll('×', '*');
+      userInput = userInput.replaceAll('÷', '/');
+
 
       // Does the math operation
       result = calculate(userInput);
@@ -221,7 +223,8 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
       resultSize = 64;
 
       // Changes the math operations back to good UI
-      userInput = userInput.replaceAll('*', 'x');
+      userInput = userInput.replaceAll('*','×');
+      userInput = userInput.replaceAll('/','÷');
 
       // Removes all the ".0" from the result.
       if (result.toString().endsWith(".0")) {

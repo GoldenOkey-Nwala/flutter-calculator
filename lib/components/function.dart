@@ -1,5 +1,5 @@
 import 'package:math_expressions/math_expressions.dart';
-
+ 
 import 'colors.dart';
 
 String calculate(String userInput) {
@@ -16,15 +16,15 @@ getColor(String text, bool darkMode) {
   if (text == "AC" || text == "(" || text == ")") {
     return darkMode ? orange : green;
   }
-  if (text == " / " || text == " x " || text == " - " || text == " + " || text == "=") {
+  if (text == " ÷ " || text == " × " || text == " - " || text == " + " || text == "=") {
     return darkMode ? green : orange;
   }
   return darkMode ? white : dark;
 }
 
 getUserInputColor(String userInput, bool darkMode) {
-  if (userInput.contains("/") ||
-      userInput.contains("x") ||
+  if (userInput.contains("÷") ||
+      userInput.contains("×") ||
       userInput.contains("-") ||
       userInput.contains("+")) {
     return darkMode ? green : orange;
